@@ -1,0 +1,68 @@
+html {
+	height: 100%;
+}
+
+body#bg {
+	/* Fix for Gradient Display */
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0;
+	height: 100%;
+	/* Gradient Design 
+  source link:https://www.gradientmagic.com/
+	*/
+	background-image: radial-gradient(
+		circle at top right,
+		rgb(36, 9, 119) 0%,
+		rgb(36, 9, 119) 48%,
+		rgb(72, 7, 149) 48%,
+		rgb(72, 7, 149) 53%,
+		rgb(109, 5, 178) 53%,
+		rgb(109, 5, 178) 56%,
+		rgb(145, 2, 208) 56%,
+		rgb(145, 2, 208) 69%,
+		rgb(181, 0, 237) 69%,
+		rgb(181, 0, 237) 100%
+	);
+}
+
+/* Button One */
+
+.button {
+	margin-top: 10rem;
+	margin-left: 50%;
+	margin-right: auto;
+}
+
+a#one {
+	background: greenyellow;
+	text-align: center;
+	padding: 1.5rem;
+	text-decoration: none;
+	border: outset greenyellow;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.button_2 {
+	margin-top: 15rem;
+	margin-left: 50%;
+	margin-right: auto;
+}
+
+a#two {
+	background-image: linear-gradient(red, blue);
+	text-align: center;
+	padding: 1.5rem;
+	text-decoration: none;
+	border: outset;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.button_2 .textc {
+	color: yellow;
+	font-weight: bolder;
+	font-style: italic;
+}

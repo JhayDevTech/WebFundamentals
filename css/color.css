@@ -1,0 +1,77 @@
+/* 
+RGB Colors can only have a value from 0-255
+RGBA value can only have from 0-1 (Opacity of the color)
+*/
+
+.design .beauty {
+	color: #1596ff;
+	background-color: rgb(255, 127, 80);
+}
+
+.head {
+	color: blue;
+}
+
+/* 0.5 is the opacity
+ The opacity is always the fourth value
+*/
+.designer2 h1 {
+	color: yellow;
+	background-color: rgb(0, 0, 0, 0.5);
+}
+
+.design .nitro {
+	color: #964b00;
+}
+
+/* Border */
+
+/* Ridge */
+.design .border {
+	background: black;
+	border: 5px ridge rgb(0, 204, 255);
+	margin: auto;
+	width: 20rem;
+	text-align: center;
+	border-radius: 10px;
+	color: yellow;
+}
+
+/* Inset */
+.design .border_2 {
+	border: 5px inset;
+	margin: auto;
+	width: 20rem;
+	text-align: center;
+	border-radius: 10px;
+	color: yellow;
+}
+
+/* Outset */
+.design .border_3 {
+	border: 5px outset;
+	margin: auto;
+	width: 20rem;
+	text-align: center;
+	border-radius: 10px;
+	color: yellow;
+}
+
+.design .border_4 {
+	border-style: dotted dashed solid double;
+	margin: auto;
+	width: 20rem;
+	text-align: center;
+}
+/* Border Styles:
+dotted
+dashed
+solid
+double
+groove
+ridge
+inset
+outset
+hidden = no border
+
+*/

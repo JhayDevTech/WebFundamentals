@@ -1,0 +1,11 @@
+body {
+background-color: black;
+}
+
+.orange-text{
+    color: orange;
+}
+
+.pink-text{
+    color:pink !important;
+}

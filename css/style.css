@@ -1,0 +1,123 @@
+/*Element Selectors
+
+. for class
+# for id
+* for universal
+
+*/
+
+.design {
+	background-color: white;
+}
+
+h1.ex {
+	color: rgb(9, 245, 115);
+}
+
+h1#mx {
+	color: burlywood;
+}
+
+.designer h1 {
+	color: blue;
+}
+
+.designer .des {
+	color: violet;
+}
+
+.designer span {
+	color: aquamarine;
+	font-size: 32px;
+}
+
+h1.mesa {
+	color: red;
+}
+.sam span {
+	color: brown;
+}
+/*
+font size
+
+Pixels = absolute value / one dot is equals to one pixel (px)
+
+Percentage  = is always depend on the parent element / relative
+
+Em = relative depends on the parent value
+
+Rem = relative depends on the root value
+
+Vh - height - percent of the screen
+
+Vw - width - precent of the screen
+
+1rem = 16px default browser style
+1em = 16px default browser style
+1em = base  value  
+*/
+
+/* .outer is the parent element */
+
+.outer {
+	width: 300px;
+	height: 300px;
+	background: blue;
+}
+
+/* inner is the child element */
+.inner {
+	width: 50%;
+	height: 50%;
+	background: red;
+}
+
+/*Google fonts */
+
+.font p {
+	font-family: 'Grechen Fuemen', cursive;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+
+.fonts p {
+	font-family: 'Grechen Fuemen', cursive;
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* Text Align
+
+text-align: center;
+text-align: right;
+text-align: left;
+text-align: justify;
+
+Text Indent
+
+text-indent: 50px;
+text-indent: 10rem;
+
+Text Transform
+
+text-transform: uppercase;
+text-transform: lowercase;
+text-transform: capitalize;
+
+Text Decoration
+
+text-decoration: overline;
+text-decoration: underline;
+text-decoration: none;
+text-decoration: line-through;
+
+Others:
+
+line-height
+letter-spacing
+word-spacing
+
+*/

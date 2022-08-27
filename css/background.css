@@ -1,0 +1,51 @@
+/* Background Property
+background-repeat::repeat;
+background-repeat: no-repeat;           repeat-x  horizontal
+background-repeat::space;                                        
+
+background-size:cover;
+background-size:contain;
+
+background-position:center;
+background-position:top;
+background-position:left;
+background-position:right;
+background-position:bottom;
+
+background-attachment: fixed;    fixed is good for parallax effect
+
+*/
+
+/* min-height:100vh; 
+  align-items:center;
+  justify-content:center;
+  display:flex;
+*/
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+div {
+	text-align: center;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.image {
+	background: url('../images/train.jpeg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-clip: content-box;
+	color: orange;
+}
+
+.images {
+	background: linear-gradient(rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)),
+		url("../images/train.jpeg")center/cover no-repeat fixed;
+
+	color: orange;
+}

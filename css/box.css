@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: yellow;
+}
+p.box {
+	background: black;
+	padding: 50px;
+	border: solid 10px green;
+	margin: 200px;
+	outline: solid indigo 5px;
+	text-align: center;
+	color: white;
+}

@@ -1,0 +1,35 @@
+.block {
+	background-color: red;
+	color: white;
+	display: blocks;
+}
+
+.dev .inline {
+	background-color: blue;
+	color: white;
+	display: inline;
+}
+
+.dev .inBlock {
+	background-color: red;
+	color: white;
+	width: 20px;
+	margin: 20px;
+	padding: 20px;
+	display: inline-block;
+}
+
+.dis {
+	background-color: blue;
+	color: white;
+	display: none;
+}
+
+.opacity {
+	background-color: blue;
+	opacity: 0.5;
+}
+
+.visibility {
+	visibility: hidden;
+}
